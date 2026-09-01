@@ -1,13 +1,13 @@
-import img1 from '../assets/images/image1.png';
-import img2 from '../assets/images/image2.png';
-import img3 from '../assets/images/image3.jpeg';
-import img4 from '../assets/images/image4.png';
-import img5 from '../assets/images/image5.png';
-import img6 from '../assets/images/image6.png';
-import img7 from '../assets/images/image7.png';
-import img8 from '../assets/images/image8.png';
-import img9 from '../assets/images/image9.png';
-import img10 from '../assets/images/image10.png';
+import img1 from '../assets/images/image1.webp';
+import img2 from '../assets/images/image2.webp';
+import img3 from '../assets/images/image3.webp';
+import img4 from '../assets/images/image4.webp';
+import img5 from '../assets/images/image5.webp';
+import img6 from '../assets/images/image6.webp';
+import img7 from '../assets/images/image7.webp';
+import img8 from '../assets/images/image8.webp';
+import img9 from '../assets/images/image9.webp';
+import img10 from '../assets/images/image10.webp';
 
 export const memories = [
   {

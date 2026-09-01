@@ -44,6 +44,16 @@ export default function App() {
     resetCandlesState();
   }, [resetCandlesState]);
 
+  // Preload all memory photo cards in the background for instant rendering
+  useEffect(() => {
+    memories.forEach((mem) => {
+      if (mem.image) {
+        const img = new Image();
+        img.src = mem.image;
+      }
+    });
+  }, []);
+
   // Candle Extinguish Handler
   const extinguishCurrentCandle = useCallback(() => {
     setCandles((prevCandles) => {
