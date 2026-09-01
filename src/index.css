@@ -1,0 +1,62 @@
+:root {
+  /* Color Palette - Soft Romantic Pastel Theme */
+  --bg-primary: #FFF5F7;
+  --bg-card: #FFFFFF;
+  --text-main: #332729;
+  --text-muted: #886C72;
+  --accent-pink: #F43F5E;
+  --accent-pink-hover: #E11D48;
+  --accent-pink-light: #FFE4E6;
+  --accent-rose: #FB7185;
+  --accent-gold: #F59E0B;
+  --accent-purple: #A78BFA;
+  
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-accent: 'Caveat', cursive, sans-serif;
+
+  --shadow-soft: 0 10px 30px -5px rgba(244, 63, 94, 0.12);
+  --shadow-card: 0 16px 40px -10px rgba(74, 62, 61, 0.1);
+  --shadow-button: 0 8px 20px -4px rgba(244, 63, 94, 0.35);
+
+  --radius-xl: 28px;
+  --radius-lg: 20px;
+  --radius-md: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  line-height: 1.5;
+  touch-action: manipulation;
+}
+
+#root {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: var(--font-sans);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
